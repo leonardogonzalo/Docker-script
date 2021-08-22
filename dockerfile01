@@ -1,0 +1,7 @@
+FROM alpine
+
+RUN apk update && \
+	apk 
+
+ENV MYSQL_ROOT_PASSWORD "123"
+
